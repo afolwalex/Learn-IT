@@ -184,8 +184,8 @@ h1, h2, h3, h4, h5, h6 {
     bottom: 0;
     z-index: 9999;
     overflow-y: auto;
-    left: -350px;
-    width: 350px;
+    left: -260px;
+    width: 260px;
     padding-top: 18px;
     background: #ffffff;
     transition: 0.4s;
@@ -646,5 +646,30 @@ h1, h2, h3, h4, h5, h6 {
         width: 100%;
     }
 }
+@media (min-width: 900px){
+    #intro{
+        height: 350px;
+    }
+    .course1, .course2, .course3, .flip-card-back{
+        height: 300px;
+    }
+    .flip-card-back h5{
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+}
+@media (min-width: 1200px){
+    #intro{
+        height: 80vh;
+    }
+    .course1, .course2, .course3{
+        height: 60vh;
+    }
+    .flip-card-back h5{
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+}
+
 
 
