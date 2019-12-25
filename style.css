@@ -591,6 +591,8 @@ h1, h2, h3, h4, h5, h6 {
 .btn-whatsapp:hover {
     color: #ffffff;
 }
+
+/*....For Small Screens....*/
 @media (max-width: 700px){
     .section-head h2{
         font-size: 1.4rem;
